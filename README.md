@@ -1,35 +1,23 @@
-## 🎯 Guess_the_Number
+## Guess the Number (Python)
 
-**Guess_the_Number** is a simple Python guessing game where the player must find a randomly generated number within a limited number of lives.
+This project is a **Guess the Number** game written in **Python**, where the player must guess a randomly generated number between **1 and 1000**.
 
-### 🎮 How the Game Works
+The player starts with **10 lives**. After each guess, the game gives a hint:
 
-* The program randomly selects a number between **1 and 1000**.
-* The player has **10 lives** to guess the correct number.
-* After each guess, the game gives a hint:
+* **“go up”** if the guessed number is too low
+* **“go down”** if the guessed number is too high
 
-  * **“go up”** if the guess is too low
-  * **“go down”** if the guess is too high
-* Each incorrect guess costs one life.
-* The game ends when the player guesses correctly or runs out of lives.
+Each incorrect guess costs one life. The game continues until the player correctly guesses the number or runs out of lives. At the end of the game, the program displays whether the player won, how many attempts were used, and reveals the secret number.
 
-### ⭐ Features
+### Features
 
-* Random number generation
-* Helpful hints after each guess
-* Life-based challenge system
-* Tracks the number of attempts
-* Beginner-friendly Python code
+* Random number generation between 1 and 1000
+* Hint system to guide the player
+* Life-based attempt limit (10 lives)
+* Attempt counter
+* Clear win/lose outcome
 
-### 🧠 Purpose
+### Technologies Used
 
-This project was created to practice basic Python concepts such as:
-
-* Variables and data types
-* Loops and conditional statements
-* User input
-* Game logic
-
----
-
-
+* Python
+* `random` module
